@@ -1,5 +1,4 @@
 const chalk = require("chalk");
-
 const temperatura_paciente = (resolve, reject) => {
   const temperatura = Math.random() * (40 - 36) + 36;
 
